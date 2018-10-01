@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require_relative '../config/boot'
+
+puts "============================"
+puts "Deploying"
+puts "============================"
+
+`git push heroku master`
+
+puts "============================"
+puts "Done"
+puts "============================"
